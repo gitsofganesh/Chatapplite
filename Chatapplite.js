@@ -20,3 +20,9 @@ function ChatApp() {
 }
 
 export default ChatApp;
+
+Using React.js Framework.
+/* # React.js
+   npx create-react-app chat-app-lite
+   cd chat-app-lite
+   npm start  */
