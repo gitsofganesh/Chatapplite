@@ -1,0 +1,15 @@
+/* CSS */
+.chatContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+Also implementing UI/UX design principle.
+/* CSS */
+.messageInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
