@@ -1,0 +1,6 @@
+// Example Jest test case
+test('renders message list', () => {
+    render(<ChatApp />);
+    const messageListElement = screen.getByRole('list', { name: /message list/i });
+    expect(messageListElement).toBeInTheDocument();
+});
