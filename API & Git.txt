@@ -1,0 +1,12 @@
+// Example using Fetch API
+fetch('https://api.example.com/messages')
+    .then(response => response.json())
+    .then(data => {
+        // Handle received messages
+    })
+    .catch(error => console.error('Error:', error));
+
+    //# Git commands
+git init
+git add .
+git commit -m "Initial commit"
